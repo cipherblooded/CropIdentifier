@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.QueryImage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/custom_toolbar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Query Image"
+                android:fontFamily="@font/comicsans"
+                android:textSize="40sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:onClick="pickImage"
+                android:src="@drawable/ic_baseline_camera_24"
+                android:background="@drawable/bg_round_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pick_image"/>
+
+            <ImageView
+                android:onClick="pickImage"
+                android:src="@drawable/ic_baseline_camera_24"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent"
+                android:id="@+id/iv_image"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Submit"
+                android:onClick="uploadQuery"
+                android:background="@drawable/bg_round_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Latitude - Not Available"
+            android:id="@+id/tv_long"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude - Not Available"
+            android:layout_gravity="center"
+            android:id="@+id/tv_lat"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
