@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jrvansuita:PickImage:2.5.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aed5291c1e426601da7e65e433cf38cb/jetified-PickImage-2.5.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5b00cb533fff2bd371a3c15ec1ab0019/transformed/jetified-PickImage-2.5.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aed5291c1e426601da7e65e433cf38cb/jetified-PickImage-2.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aed5291c1e426601da7e65e433cf38cb/jetified-PickImage-2.5.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aed5291c1e426601da7e65e433cf38cb/jetified-PickImage-2.5.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5b00cb533fff2bd371a3c15ec1ab0019/transformed/jetified-PickImage-2.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b00cb533fff2bd371a3c15ec1ab0019/transformed/jetified-PickImage-2.5.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b00cb533fff2bd371a3c15ec1ab0019/transformed/jetified-PickImage-2.5.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jrvansuita/PickImage/2.5.1/ef1b679de0d71dbc6c889fe96db0605ecbdc1893/PickImage-2.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

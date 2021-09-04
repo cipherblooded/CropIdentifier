@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UserProfile"
+    android:gravity="center"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#e8eaea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            android:paddingEnd="20dp">
+
+            <TextView
+                android:gravity="center|start"
+                android:layout_weight="4"
+                android:id="@+id/userName"
+                android:text="User Name"
+                android:fontFamily="@font/comicsans"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:layout_weight="1"
+                android:onClick="signOut"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/ic_baseline_power_settings_new_36"
+                android:tint="@color/black"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <Button
+            android:text="Add Query"
+            android:id="@+id/add_data"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"/>
+
+        <Button
+            android:text="View Queries"
+            android:id="@+id/view_data"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>

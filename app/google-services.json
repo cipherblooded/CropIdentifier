@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "620521363615",
+    "firebase_url": "https://split-it-6f399.firebaseio.com",
+    "project_id": "split-it-6f399",
+    "storage_bucket": "split-it-6f399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620521363615:android:cba808923e5e0444a32aaa",
+        "android_client_info": {
+          "package_name": "com.hackathon.cropidentifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620521363615-fomjdgg1n73odtaru180m3tg354fcmjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxxuPJDFo3wdPfiN6YdbxicvBxJ3QdG6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620521363615-fomjdgg1n73odtaru180m3tg354fcmjq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "620521363615-i72m5j6udin1d8noe41o1f81rt36ans0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.appintuitions.demo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
